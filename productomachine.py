@@ -1,6 +1,6 @@
 class TuringMachine:
-    def _init_(self, tape):
-        self.tape = list(tape) + [" "]  # Añadir un espacio en blanco al final de la cinta para simular el delimitador
+    def __init__(self, tape):  # Acepta la cinta como argumento
+        self.tape = list(tape) + [" "]  # Añadir un espacio en blanco al final para simular el delimitador
         self.head = 0  # Posición inicial del cabezal
         self.state = 'J'  # Estado inicial
 

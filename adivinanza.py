@@ -9,7 +9,7 @@ def juego_adivinanza():
     print("He elegido un número entre 1 y 100. ¿Puedes adivinar cuál es?")
 
     while not adivinado:
-        intento = int(input("Ingresa tu adivinanza: "))
+        intento = int(input("Ingresa tu Adivinanza:: "))
         intentos += 1
 
         if intento < numero_secreto:
