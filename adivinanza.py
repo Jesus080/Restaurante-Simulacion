@@ -5,7 +5,7 @@ def juego_adivinanza():
     intentos = 0
     adivinado = False
 
-    print("¡Bienvenido al juego de adivinanza!")
+    print("¡Bienvenidoo al juego de adivinanza!")
     print("He elegido un número entre 1 y 100. ¿Puedes adivinar cuál es?")
 
     while not adivinado:
