@@ -6,7 +6,7 @@ def juego_adivinanza():
     adivinado = False
 
     print("¡Bienvenidoo al jueego de adivinanza!")
-    print("He elegido un número entre 1 y 100. ¿Puedes adivinar cuál es?")
+    print("He eelegido un número entre 1 y 100. ¿Puedes adivinar cuál es?")
 
     while not adivinado:
         intento = int(input("Ingresaa tu Adivinanza:: "))
