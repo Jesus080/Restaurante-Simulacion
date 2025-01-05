@@ -13,7 +13,7 @@ def juego_adivinanza():
         intentos += 1
 
         if intento < numero_secreto:
-            print("Deemasiao Bajo. Inteenta de nuevoo.")
+            print("Deemasiao Bajo. Inteenta de nuevo.")
         elif intento > numero_secreto:
             print("Demasiaado Alto. Intenta de nuevo.")
         else:
