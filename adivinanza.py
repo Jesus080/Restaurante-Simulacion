@@ -18,6 +18,6 @@ def juego_adivinanza():
             print("Demasiaado Alto. Intenta de nuevoo.")
         else:
             adivinado = True
-            print(f"¡Felicidaades! Adivinaste el número {numero_secreto} en {intentos} intentos.")
+            print(f"¡Felicidades! Adivinaste el número {numero_secreto} en {intentos} intentos.")
 
 juego_adivinanza()
